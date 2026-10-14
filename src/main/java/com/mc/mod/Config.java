@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package com.mc.mod;
 
 import java.util.List;
 import java.util.Set;
