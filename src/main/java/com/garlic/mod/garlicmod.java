@@ -1,4 +1,4 @@
-package com.mc.mod;
+package com.garlic.mod;
 
 import org.slf4j.Logger;
 
@@ -32,16 +32,20 @@ import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
-@Mod(mcmod.MODID)
-public class mcmod {
+@Mod(garlicmod.MODID)
+public class garlicmod {
     // Define mod id in a common place for everything to reference
-    public static final String MODID = "mcmod";
+    public static final String MODID = "garlicmod";
     // Directly reference a slf4j logger
     public static final Logger LOGGER = LogUtils.getLogger();
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
-    public mcmod(IEventBus modEventBus, ModContainer modContainer) {
-        // Register the commonSetup method for modloading
+
+    public garlicmod(IEventBus modEventBus, ModContainer modContainer) {
+        new ModEvents();
+
+        Items.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
@@ -62,9 +66,6 @@ public class mcmod {
     }
 
     // Add the example block item to the building blocks tab
-    private void addCreative(BuildCreativeModeTabContentsEvent event) {
-
-    }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent

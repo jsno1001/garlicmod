@@ -1,4 +1,4 @@
-package com.mc.mod;
+package com.garlic.mod;
 
 import java.util.List;
 import java.util.Set;
