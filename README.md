@@ -1,25 +1,34 @@
+<html>
 
-Installation information
-=======
+<p allign=center><img src="src/main/resources/garlicmod_logo.png" alt="Project Logo" width="200">
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+<a href="https://modrinth.com/mod/garlic-mod/">
+  <img src="https://img.shields.io/badge/Modrinth-Project-1bd96a?style=flat-square&logo=modrinth&logoColor=white" alt="Modrinth">
+</a>
+<a href="https://modrinth.com/mod/garlic-mod/">
+  <img src="https://img.shields.io/modrinth/dt/garlic-mod/?style=flat-square&logo=modrinth&logoColor=white&label=downloads" alt="Downloads">
+</a>
+<a href="https://github.com/jsno1001/garlicmod">
+  <img src="https://img.shields.io/github/license/jsno1001/garlicmod?style=flat-square" alt="License">
+</a>
+<img src="https://img.shields.io/badge/Java-27-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java 27">
+<a href="https://github.com/jsno1001/garlicmod">
+  <img src="https://img.shields.io/github/stars/jsno1001/garlicmod?style=flat-square&logo=github" alt="GitHub Stars">
+</a>
+</p>
+</html>
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+# Garlic Mod
+This is mod for minecraft they added garlic and you can grow this 
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+Version minecraft 1.21.1 neoforge
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
-
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+- Items
+  - Garlic
+  - Garlic seed
+  - Garlic husk
+  - Golden garlic
+- Blocks 
+  - Garlic plant
+- Crafts
+  - You can craft 1 golden garlic out of 1 garlic and 8 gold nuggets.
