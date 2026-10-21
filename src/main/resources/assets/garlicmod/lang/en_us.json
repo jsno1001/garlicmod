@@ -1,4 +1,6 @@
 {
-  "item.mcmod.garlic": "Garlic",
-  "item.mcmod.husk": "Husk"
+  "item.garlicmod.garlic": "Garlic",
+  "item.garlicmod.husk": "Husk",
+  "item.garlicmod.golden_garlic": "Golden garlic",
+  "item.garlicmod.garlic_seed": "Garlic seed"
 }
