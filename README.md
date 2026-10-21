@@ -1,6 +1,7 @@
 <html>
 
-<p allign=center><img src="src/main/resources/garlicmod_logo.png" alt="Project Logo" width="200">
+<p allign=center>
+<img src="src/main/resources/garlicmod_logo.png" alt="Project Logo" width="200"><br>
 
 <a href="https://modrinth.com/mod/garlic-mod/">
   <img src="https://img.shields.io/badge/Modrinth-Project-1bd96a?style=flat-square&logo=modrinth&logoColor=white" alt="Modrinth">
