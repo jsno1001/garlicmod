@@ -1,6 +1,6 @@
 <html>
 
-<p allign=center>
+<p align=center>
 <img src="src/main/resources/garlicmod_logo.png" alt="Project Logo" width="200"><br>
 
 <a href="https://modrinth.com/mod/garlic-mod/">
